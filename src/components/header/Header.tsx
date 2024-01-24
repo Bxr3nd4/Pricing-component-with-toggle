@@ -1,10 +1,10 @@
-import "./Header.css";
+import styles from "./Header.module.css"
 import Toggle from "../toggle/Toggle"
 
 function Header() {
   return (
     <>
-      <h1> Our Pricing</h1>
+      <h1 className={styles.title}> Our Pricing</h1>
       <Toggle />
     </>
   );
